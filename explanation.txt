@@ -1,0 +1,12 @@
+This **Student Record Management System** is a simple Python program that stores and manages student data using a list of dictionaries.
+It allows users to add student details such as name, roll number, and marks for five subjects.
+
+The `calculate_grade()` function assigns grades (A–F) based on the student’s average marks.
+When adding a student, the program checks for duplicate roll numbers to prevent repeated entries.
+
+The `view_students()` function displays all stored student records in a formatted way.
+The `search_student()` function finds and displays a student’s details using their roll number.
+
+The `class_statistics()` function calculates overall class performance, including total students, class average, highest total marks, and lowest total marks.
+
+A `while` loop creates a menu-driven interface, allowing users to repeatedly choose operations until they select the exit option.
